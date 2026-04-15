@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-14T22:22:27 IST" name="Suite" finished-at="2026-04-14T22:22:49 IST" duration-ms="22147">
+    <groups>
+    </groups>
+    <test started-at="2026-04-14T22:22:27 IST" name="Test" finished-at="2026-04-14T22:22:49 IST" duration-ms="22147">
+      <class name="testCases.TC002_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC002_Login@44ebcd03]" started-at="2026-04-14T22:22:41 IST" name="setup" finished-at="2026-04-14T22:22:45 IST" duration-ms="3981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:1, instance:testCases.TC002_Login@44ebcd03]" started-at="2026-04-14T22:22:45 IST" name="Login" finished-at="2026-04-14T22:22:48 IST" duration-ms="2776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Logout()[pri:2, instance:testCases.TC002_Login@44ebcd03]" started-at="2026-04-14T22:22:48 IST" name="Logout" finished-at="2026-04-14T22:22:49 IST" depends-on-methods="testCases.TC002_Login.Login" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_Login@44ebcd03]" started-at="2026-04-14T22:22:49 IST" name="tearDown" finished-at="2026-04-14T22:22:49 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_Login -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC001_AccountRegistrationTest@74e52303]" started-at="2026-04-14T22:22:28 IST" name="setup" finished-at="2026-04-14T22:22:36 IST" duration-ms="8037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Account_Registration()[pri:1, instance:testCases.TC001_AccountRegistrationTest@74e52303]" started-at="2026-04-14T22:22:36 IST" name="Account_Registration" finished-at="2026-04-14T22:22:41 IST" duration-ms="4756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Account_Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@74e52303]" started-at="2026-04-14T22:22:41 IST" name="tearDown" finished-at="2026-04-14T22:22:41 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
