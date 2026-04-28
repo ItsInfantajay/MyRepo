@@ -11,7 +11,7 @@ public class TC002_Login extends BaseClass{
 	HomePage hp;
 	Login_page lp;
 	
-	@Test(priority=1)
+	@Test(priority=1,groups={"Sanity","Regression"})
 	public void Login()
 	{
 		//object for homepage

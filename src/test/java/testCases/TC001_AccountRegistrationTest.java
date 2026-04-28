@@ -8,7 +8,7 @@ public class TC001_AccountRegistrationTest extends BaseClass
 {
 	
 	
-	@Test(priority=1)
+	@Test(priority=1, groups={"Functional","Regression"})
 	void Account_Registration()
 	{
 		//creating Objects for the Page Object Classes
